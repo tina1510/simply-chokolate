@@ -1,0 +1,19 @@
+/* ====== UTILS ====== */
+@import url("./utils/visually-hidden.css");
+
+/* ====== BASE ====== */
+@import url("./base/common.css");
+@import url("./base/container.css");
+@import url("./base/section.css");
+
+/* ====== LAYOUT ====== */
+@import url("./layout/header.css");
+@import url("./layout/hero.css");
+@import url("./layout/benefits.css");
+@import url("./layout/ingridients.css");
+@import url("./layout/how-made.css");
+@import url("./layout/products.css");
+@import url("./layout/sellers.css");
+@import url("./layout/people.css");
+@import url("./layout/footer.css");
+@import url("./layout/modal.css");
