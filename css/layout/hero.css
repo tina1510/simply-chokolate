@@ -130,7 +130,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url(image/chocolate-main-mob@2x.jpg);
+      url("image/chocolate-main-mob@2x.jpg");
   }
 }
 
@@ -217,6 +217,6 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url(/"image/chocolate-main@2x.jpg");
+      url("/image/chocolate-main@2x.jpg");
   }
 }
