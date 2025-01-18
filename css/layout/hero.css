@@ -97,7 +97,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url("/image/chocolate-main_mob.jpg");
+      url("../../image/chocolate-main_mob.jpg");
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -130,7 +130,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url("/image/chocolate-main-mob@2x.jpg");
+      url("../../image/chocolate-main-mob@2x.jpg");
   }
 }
 
@@ -141,7 +141,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url("/image/chocolate-main-tablet.jpg");
+      url("../../image/chocolate-main-tablet.jpg");
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -193,7 +193,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url("/image/chocolate-main-tablet@2x.jpg");
+      url("../../image/chocolate-main-tablet@2x.jpg");
   }
 }
 
