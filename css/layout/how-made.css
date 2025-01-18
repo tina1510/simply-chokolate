@@ -57,16 +57,16 @@
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-  and screen and (min-resolution: 2dppx) and (max-width: 767px),
-  and screen and(min-device-pixel-ratio: 2) and (max-width: 767px) {
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and(min-device-pixel-ratio: 2) and (max-width: 767px) {
   .container-image {
-    background-image: url(/image/video-mob@2x.png);
+    background-image: url(../../image/video-mob@2x.png);
   }
 }
 
 @media screen and (min-width: 768px) {
   .container-image {
-    background-image: url(/image/video-tablet.png);
+    background-image: url(../../image/video-tablet.png);
     width: 614px;
     height: 400px;
   }
@@ -90,10 +90,10 @@
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-  and screen and (min-resolution: 2dppx) and (min-width: 768px),
-  and screen and(min-device-pixel-ratio: 2) and (min-width: 768px) {
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and(min-device-pixel-ratio: 2) and (min-width: 768px) {
   .container-image {
-    background-image: url(/image/video-tablet@2x.png);
+    background-image: url(../../image/video-tablet@2x.png);
   }
 }
 @media screen and (min-width: 1168px) {
@@ -102,7 +102,7 @@
     column-gap: 20px;
   }
   .container-image {
-    background-image: url(/image/video.jpg);
+    background-image: url(../../image/video.jpg);
     width: 600px;
     height: 400px;
   }
@@ -123,6 +123,6 @@
   screen and (min-resolution: 2dppx) and (min-width: 1168px),
   screen and(min-device-pixel-ratio: 2) and (min-width: 1168px) {
   .container-image {
-    background-image: url(/image/video@2x.jpg);
+    background-image: url(../../image/video@2x.jpg);
   }
 }
