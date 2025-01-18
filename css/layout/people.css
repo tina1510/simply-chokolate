@@ -29,7 +29,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 1.33em; /* 133.333% */
+  line-height: 1.33em;
   padding-top: 56px;
 }
 .menu-text-people {
@@ -38,7 +38,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: -0.28px;
   padding-top: 24px;
 }
@@ -46,8 +46,6 @@
   border-radius: 100px;
   border: 1px solid #fd9222;
   display: flex;
-  /* width: 222px;
-  height: 50px; */
   padding: 12px 28px;
   justify-content: center;
   align-items: flex-start;
@@ -76,8 +74,6 @@
     padding: 0 24px 24px 24px;
   }
   .button-leave {
-    /* width: 222px;
-  height: 50px; */
     padding: 14px 40px;
 
     font-size: 18px;
@@ -98,66 +94,3 @@
     padding: 0 24px 24px 24px;
   }
 }
-
-/* .menu-people {
-  display: flex;
-  column-gap: 28px;
-  position: relative;
-  padding: 42px;
-}
-.menu-item-people {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: calc((100% - 2 * 28px) / 3);
-  border-radius: 15px;
-  border: 1px solid rgba(17, 17, 17, 0.1);
-  background: #fff;
-  box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
-  padding: 0 24px 24px 24px;
-}
-.menu-image-people {
-  position: absolute;
-  top: 0;
-}
-.menu-name-people {
-  color: #111;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.33em; 
-  padding-top: 56px;
-}
-.menu-text-people {
-  color: rgba(17, 17, 17, 0.7);
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.28px;
-  padding-top: 24px;
-}
-.button-leave {
-  border-radius: 100px;
-  border: 1px solid #fd9222;
-  display: flex;
-  width: 222px;
-  height: 50px;
-  padding: 14px 40px;
-  justify-content: center;
-  align-items: flex-start;
-  color: #111;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  background-color: transparent;
-  margin: auto;
-}
-.button-leave:hover,
-.button-leave:focus {
-  color: #fff;
-  background: #fd9222;
-} */

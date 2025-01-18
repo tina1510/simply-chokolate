@@ -38,7 +38,7 @@
             </button>
             <ul class="sicial-list">
                 <li class="social-list-item">
-                    <a class="social-list-link" href=" https://www.facebook.com/?locale=uk_UA">
+                    <a class="social-list-link" href=" https://www.facebook.com/?locale=uk_UA" target="_blank">
                         <svg class="header-social-svg" width="24" height="24">
                             <use href="./image/symbol-defs.svg#icon-facebook"></use>
                         </svg>
@@ -46,7 +46,7 @@
 
                 </li>
                 <li class="social-list-item">
-                    <a class="social-list-link" href="https://www.instagram.com/">
+                    <a class="social-list-link" href="https://www.instagram.com/" target="_blank">
                         <svg class="header-social-svg" width="24" height="24">
                             <use href="./image/symbol-defs.svg#icon-instagram"></use>
                         </svg>
@@ -54,7 +54,7 @@
 
                 </li>
                 <li class="social-list-item">
-                    <a class="social-list-link" href="https://x.com/?lang=uk">
+                    <a class="social-list-link" href="https://x.com/?lang=uk" target="_blank">
                         <svg class="header-social-svg" width="24" height="24">
                             <use href="./image/symbol-defs.svg#icon-twitter"></use>
                         </svg>
@@ -283,7 +283,7 @@
                 <h2 class="title" id="made">How it’s <span class="text-orange">made</span>?</h2>
                 <div class="container-how-made">
                     <div class="container-image">
-                        <svg width="44" height="44">
+                        <svg class="play-btn-svg" width="44" height="44">
                             <use href="./image/symbol-defs.svg#icon-play"></use>
                         </svg>
                     </div>
@@ -546,7 +546,7 @@
 
                     </li>
                 </ul>
-                <button class="button-leave">Leave a review</button>
+                <button class="button-leave" type="submit">Leave a review</button>
             </div>
 
         </section>
@@ -565,7 +565,8 @@
                         <p class="footer-social-title">Social networks</p>
                         <ul class="footer-social-list">
                             <li class="social-list-item">
-                                <a class="footer-social-list-link" href="https://www.facebook.com/?locale=uk_UA">
+                                <a class="footer-social-list-link" href="https://www.facebook.com/?locale=uk_UA"
+                                    target="_blank">
                                     <svg class="footer-social-svg" width="24" height="24">
                                         <use href="./image/symbol-defs.svg#icon-facebook"></use>
                                     </svg>
@@ -573,7 +574,7 @@
 
                             </li>
                             <li class="social-list-item">
-                                <a class="footer-social-list-link" href="https://www.instagram.com/">
+                                <a class="footer-social-list-link" href="https://www.instagram.com/" target="_blank">
                                     <svg class="footer-social-svg" width="24" height="24">
                                         <use href="./image/symbol-defs.svg#icon-instagram"></use>
                                     </svg>
@@ -581,7 +582,7 @@
 
                             </li>
                             <li class="social-list-item">
-                                <a class="footer-social-list-link" href="https://x.com/?lang=uk">
+                                <a class="footer-social-list-link" href="https://x.com/?lang=uk" target="_blank">
                                     <svg class="footer-social-svg" width="24" height="24">
                                         <use href="./image/symbol-defs.svg#icon-twitter"></use>
                                     </svg></a>
@@ -616,9 +617,10 @@
                     </ul>
                     <ul>
                 </nav>
-                <form class="form-email" name="Subscribe" autocomplete="off" action="">
-                    <label for="user-email"> <input class="footer-input" type="email" name="user-email"
-                            placeholder="Enter your email" id="user-email"></label>
+                <form class="form-email" name="Subscribe" autocomplete="off">
+                    <label for="user-email">
+                        <input class="footer-input" type="email" name="user-email" placeholder="Enter your email"
+                            id="user-email"></label>
 
                     <button class="button-subscribe">Subscribe</button>
                 </form>
