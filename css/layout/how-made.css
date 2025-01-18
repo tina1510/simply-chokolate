@@ -120,8 +120,8 @@
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1168px),
-  and screen and (min-resolution: 2dppx) and (min-width: 1168px),
-  and screen and(min-device-pixel-ratio: 2) and (min-width: 1168px) {
+  screen and (min-resolution: 2dppx) and (min-width: 1168px),
+  screen and(min-device-pixel-ratio: 2) and (min-width: 1168px) {
   .container-image {
     background-image: url(/image/video@2x.jpg);
   }
