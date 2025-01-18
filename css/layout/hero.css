@@ -204,7 +204,7 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url("/image/chocolate-main.jpg");
+      url("image/chocolate-main.jpg");
 
     height: 600px;
   }
@@ -218,6 +218,6 @@
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.6)
       ),
-      url("/image/chocolate-main@2x.jpg");
+      url("image/chocolate-main@2x.jpg");
   }
 }
